@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+nav{
+    height: 4rem;
+    width: 100%;
+    background-color:black;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    display: flex;
+    align-items: center;
+    overflow-y: none;
+   color: white;
+   font-family: "Robot";
+
+}
+.nxz-logo{
+    width: 8rem;
+}
+.logo-nav-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-items-container{
+    display: flex;
+    gap: 2rem;
+}
+.nav-items-list{
+list-style-type: none;
+display: flex;
+gap: 1rem;
+}
+.log-btn{
+    width: 6rem;
+    height: 2rem;
+    background-color: #0b69ff;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+
+}
+.link-items{
+text-decoration: none;
+color: white;
+}
+@media screen and (max-width: 768px){
+    .nav-header{
+        display: none;
+    }
+}

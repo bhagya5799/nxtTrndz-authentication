@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+
+body{
+width: 90vw;
+
+}
+.home-container{
+ display: flex;
+ padding-top: 6rem;
+ color: #1e293b;
+ padding-left: 3rem;
+padding-right: 3rem;
+gap: 4rem;
+width: 100%;
+
+}
+.home-heading{
+color:black;
+font-weight: bold;
+font-family: "Roboto";
+}
+.home-description{
+    color:   rgb(129, 128, 128);
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto";
+    word-spacing: 8px;
+}
+.shop-now-button{
+    background-color: #0967d2;
+    height: 2rem;
+    width: 6rem;
+    border-width: 0;
+    color: white;
+    border-radius: 3px;
+}
+
+.home-mobile-img{
+    display: none;
+}
+.mobile-nav-container{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+.home-desktop-img{
+        display: none;
+}
+.home-mobile-img{
+    display: block;
+}
+.home-heading{
+    font-size: 3rem;
+}
+.home-container{
+   text-align: center;
+   width: 100%;
+}
+.mobile-nav-container{
+    display: block;
+    flex-direction: column;
+
+ 
+}
+.mobile-nav-logos{
+    display: flex;
+}
+.mobile-nav-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.mobile-tranz-logo{
+    height: 6rem;
+    width: 12rem;
+}
+.mobile-logout-logo{
+    width: 4rem;
+     height: 6rem;
+}
+.mobile-nav-bar{
+    height:6rem;
+    width: 90%;
+    background-color: #e6f6ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-top: 1rem;
+}
+.mobile-nav-bar>img{
+    width: 3rem;
+    height: 3rem;
+}
+}

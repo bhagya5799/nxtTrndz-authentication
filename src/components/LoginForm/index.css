@@ -1,0 +1,63 @@
+/* Write your CSS code here */
+.login-form{
+  display: flex;
+  justify-content: space-around;
+   align-items: center;
+   align-content: center;
+   padding: 5rem;
+height: 90%;
+width: 100%;
+}
+
+.trdz-img{
+    width: 25rem;
+    height: 15rem;
+
+}
+.input-trndz-form{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 5px 8px 10px lightgray;
+    border-radius: 5px;
+    /* text-align: center; */
+   
+}
+
+.input-trndz-logo{
+width: 11em;
+margin-left: 10%;
+margin-bottom: 2rem;
+    
+}
+label{
+    font-size: 10px;
+    font-weight: bold;
+    color: #475569;
+    font-family: "Roboto";
+    margin-bottom: 2rem;
+}
+input{
+    height: 1.6rem;
+    width: 70%;
+    background-color: lightgray;
+    border-width: 0;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    padding-left: 10px;
+
+}
+.login-btn{
+height: 2rem;
+width: 75%;
+color: white;
+background-color:  #0967d2;
+border-width: 0;
+border-radius: 3px;
+}
+.error-msz{
+    color: red;
+    font-size: 8px;
+}
